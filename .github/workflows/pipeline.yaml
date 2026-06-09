@@ -27,8 +27,8 @@ jobs:
 
       - name: Build Image
         run: |
-          docker build -t aula15-devops/aula-devops:1.0 .
+          docker build -t karlinha127/aula-devops:1.0 .
 
       - name: Push Image
         run: |
-          docker push aula15-devops/aula-devops:1.0
+          docker push karlinha127/aula-devops:1.0
